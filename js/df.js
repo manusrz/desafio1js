@@ -6,7 +6,7 @@ let cuotas = 0;
 
 
 const pedirMonto = () => {
-    monto = Number(prompt("¿cuanto dinero quiere que le prestemos? (entre 1.000$ y 20.000$"));
+    monto = Number(prompt("¿cuanto dinero quiere que le prestemos? entre 1.000$ y 20.000$"));
     while (isNaN((monto)) || monto < 1000 || monto > 20000 ) {
         monto = Number(prompt("cuanto dinero quiere que le prestemos, entre 1.000$ y 20.000$. "));
     }
